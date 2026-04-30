@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/knVeerendra/DevD2.git'
+                git branch: 'main', url: 'https://github.com/knVeerendra/d2.git'
             }
         }
 
